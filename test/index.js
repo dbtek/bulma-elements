@@ -1,0 +1,2 @@
+require('./avatar')
+require('./input')

@@ -1,0 +1,30 @@
+{
+  "name": "bulma-elements",
+  "version": "1.0.0",
+  "description": "Reusable elements based on bulma framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test | tap-spec"
+  },
+  "keywords": [
+    "bulma",
+    "elements",
+    "components",
+    "dom",
+    "tagged template strings"
+  ],
+  "author": "İsmail Demirbilek <ce.demirbilek@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bel": "^4.5.0",
+    "bulma": "^0.4.2",
+    "ipret": "^0.1.1",
+    "lory.js": "^2.2.1",
+    "md5": "^2.2.1"
+  },
+  "devDependencies": {
+    "es2020": "^1.1.9",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3"
+  }
+}
