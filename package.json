@@ -1,6 +1,6 @@
 {
   "name": "bulma-elements",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Reusable elements based on bulma framework",
   "main": "index.js",
   "scripts": {

@@ -1,0 +1,52 @@
+.slider {
+  width: 880px;
+  margin: 20px auto 20px;
+
+  .frame {
+    /**
+     * (optional) wrapper width, specifies width of the slider frame.
+     */
+     width: 880px;
+
+     position: relative;
+     font-size: 0;
+     line-height: 0;
+     overflow: hidden;
+     white-space: nowrap;
+   }
+
+  .slides {
+    display: inline-block;
+  }
+
+  li {
+    position: relative;
+    display: inline-block;
+
+    /**
+     * (optional) if the content inside the slide element has a defined size.
+     */
+     width: 880px;
+   }
+
+  .prev, .next {
+    position: absolute;
+    top: 300px;
+    display: block;
+    cursor: pointer;
+    font-size: 2rem;
+    user-select: none;
+  }
+
+  .next {
+    right: 0;
+  }
+
+  .prev {
+    left: 0;
+  }
+
+  .next .icon, .prev .icon {
+    width: 25px;
+  }
+}
