@@ -4,7 +4,8 @@
   "description": "Reusable elements based on bulma framework",
   "main": "index.js",
   "scripts": {
-    "test": "standard && tape test | tap-spec"
+    "test": "standard && istanbul cover test",
+    "upload-coverage": "codecov"
   },
   "keywords": [
     "bulma",
@@ -23,7 +24,10 @@
     "md5": "^2.2.1"
   },
   "devDependencies": {
+    "codecov": "^2.2.0",
     "es2020": "^1.1.9",
+    "istanbul": "^0.4.5",
+    "standard": "^10.0.2",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3"
   }
